@@ -8,21 +8,30 @@ The tutorial(-jupyter-notebook) consists of 3 parts:
 3. Computing probabilistic lower bounds for estimates, computed in part 2.
 
 ### Running the tutorial locally
+If you don't have any virtual environment set up follow the optional step below.
+#### (Optional) Create conda environment
+Install conda from this [link](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). In conda-prompt/terminal create environment:
+
+    conda create --name hcope-tutorial
+Activate environment
+
+    conda activate hcope-tutorial
+Install dependencies
+
+    conda install -c conda-forge gym
+    conda install -c pytorch pytorch
+    conda install -c conda-forge tqdm
+    conda install -c conda-forge stable-baselines3
+    conda install -c conda-forge jupyter
+  
+#### Running the jupyter-notebook
 Clone repository to working direcetory
 
     git clone https://github.com/kashluga/sb3-hcope-tutorial.git
 
-Create conda environment from `requirements.txt` 
+Open folder `cd sb3-hcope-tutorial`, run jupyter-notebook 
 
-    conda create --name hcope-tutorial --file sb3-hcope-tutorial/requirements.txt
-Activate environment
-
-    conda activate hcope-tutorial
-
-
-Run jupyter-notebook 
-
-    jupyter notebook sb3-hcope-tutorial/SB3-HCOPE-tutorial.ipynb
+`jupyter notebook SB3-HCOPE-tutorial.ipynb`
 
 
 ### Dependencies
