@@ -18,11 +18,13 @@ Activate environment
     conda activate hcope-tutorial
 Install dependencies
 
-    conda install -c conda-forge gym
-    conda install -c pytorch pytorch
-    conda install -c conda-forge tqdm
-    conda install -c conda-forge stable-baselines3
-    conda install -c conda-forge jupyter
+    conda install pip
+    pip install torch
+    pip install gym
+    pip install stable-baselines3
+    pip install notebook
+    pip install ipywidgets
+    pip install tqdm
   
 #### Running the jupyter-notebook
 Clone repository to working direcetory
