@@ -32,4 +32,4 @@ Run jupyter-notebook
 - [tqdm for progress bars](https://github.com/tqdm/tqdm)
 
 #### Contributors
-[Alejandro Arevalo Garzarro](https://www.instagram.com/garzaro002/?hl=en)
+[Alejandro Arevalo Garzaro](https://www.instagram.com/garzaro002/?hl=en)
