@@ -22,7 +22,7 @@ Activate environment
 
 Run jupyter-notebook 
 
-`jupyter notebook sb3-hcope-tutorial/SB3-HCOPE-tutorial.ipynb`
+    jupyter notebook sb3-hcope-tutorial/SB3-HCOPE-tutorial.ipynb
 
 
 ### Dependencies
